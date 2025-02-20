@@ -1,0 +1,37 @@
+.previewSessionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.previewImage {
+  width: 56px;
+  margin-top: 196px;
+  margin-bottom: 10px;
+}
+
+.uploadButton {
+  cursor: pointer;
+  background-color: #7c36d6;
+  border-radius: 9px;
+  padding: 9px 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.uploadJsonText {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.previewVideoContainer {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  background-color: black;
+  line-height: 0;
+}

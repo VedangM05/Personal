@@ -1,0 +1,109 @@
+.videoPlayerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoWrapper {
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+  overflow: hidden;
+  border-radius: 6px;
+  height: 100%;
+  line-height: 0;
+}
+
+.playButton {
+  height: 18px;
+  padding: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.videoPlayerControlsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.seekbarContainer {
+  height: 4px;
+  width: 100%;
+  background-color: #ffffff3b;
+  border: 1px solid #37393f;
+  border-radius: 999px;
+
+  cursor: pointer;
+}
+
+.timestampContainer {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 10px;
+  gap: 5px;
+}
+
+.volumeContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volumeIcon {
+  height: 16px;
+}
+
+.volumeBarContainer {
+  height: 4px;
+  width: 80px;
+  background-color: #ffffff3b;
+  border: 1px solid #37393f;
+  border-radius: 999px;
+}
+
+.videoEditorControlsRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.selectButtonContainer {
+  display: flex;
+  flex-direction: column;
+  color: #ddd;
+}
+
+.selectButtonContainer select {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #ddd;
+  background-color: #3a3a3a;
+  border: 1px solid #555;
+  border-radius: 4px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.selectButtonContainer select:hover {
+  background-color: #4a4a4a;
+}
+
+.selectButtonContainer option {
+  color: #ddd;
+  background-color: #3a3a3a;
+  padding: 0.5rem;
+}
+
+.selectButtonContainer option:checked {
+  content: "✓ ";
+  color: #007bff;
+}

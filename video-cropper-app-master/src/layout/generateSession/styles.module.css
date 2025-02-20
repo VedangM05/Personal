@@ -1,0 +1,24 @@
+.bodyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.videoPlayerContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.videoPreviewContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  align-self: flex-start;
+}

@@ -1,0 +1,35 @@
+.footer {
+  padding: 18px 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #494c55;
+  background-color: #37393f;
+  margin-top: auto;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footerButton {
+  cursor: pointer;
+  background-color: #7c36d6;
+  border-radius: 9px;
+  padding: 9px 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cancelButton {
+  background-color: #45474e;
+  padding: 9px 20px;
+}
+
+.disabledButton {
+  opacity: 0.5;
+}
